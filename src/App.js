@@ -47,7 +47,7 @@ function App() {
           periodo: '1908 - 1925',
           empresa: 'Universidade de Berna',
           local: 'Berna, Suiça',
-          conteudo: 'Eletrodinamica,relatividade geral relatividade restrita movimento browniano efeito fotoelétrico'
+          conteudo: 'Eletrodinamica, Relatividade Geral, Relatividade Restrita, Movimento Browniano, Efeito Fotoelétrico'
         },
         {
           id: 2,
@@ -55,7 +55,7 @@ function App() {
           periodo: '1914 - 1925',
           empresa: 'Instituto Kaiser Guilherme de Fisica',
           local: 'Alemanha',
-          conteudo: 'Equivalência massa-energia, equações de campo de Einstein, estatística de Bose-Einstein, paradoxo EPR'
+          conteudo: 'Equivalência Massa-energia, Equações de Campo de Einstein, Estatística de Bose-Einstein, Paradoxo EPR'
         }
       ]
   }
