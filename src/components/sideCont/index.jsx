@@ -1,6 +1,6 @@
 import React from 'react'
-import AsideUp from '../asideUp'
-import AsideDown from '../asideDown'
+import AsideUp from '../sideUp'
+import AsideDown from '../sideDown'
 
 function AsideContainer(props) {
 

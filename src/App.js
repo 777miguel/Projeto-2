@@ -1,61 +1,61 @@
 import React, { useState } from "react";
 import "./App.css"
 
-import Biography from './components/biography'
-import Perfil from './components/perfil'
+import Biography from './components/Bio'
+import Perfil from './components/Profile'
 import Track from './components/track'
 import ExpContainer from './components/expContainer'
-import AsideContainer from './components/asideContainder'
+import AsideContainer from './components/sideCont'
 
 function App() {
 
   const fakeAPI =  
     {
-      nome: 'Elon Reeve Musk',
-      ocupacao: 'CEO',
-      resumo: 'Levarei a humanidade a marte!',
-      perfilProfissional: 'Bom em tudo',
-      avatar: 'https://www.abc.net.au/cm/rimage/9815730-3x2-xlarge.jpg?v=2',
+      nome: 'Albert Einstein',
+      ocupacao: 'Fisico',
+      resumo: 'E=mc²',
+      perfilProfissional: 'Relatividade Geral, Relatividade Restrita, Efeito Fotoelétrico.',
+      avatar: 'https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Frainerzitelmann%2Ffiles%2F2019%2F06%2FE0MG76-e1560965378507-1200x1270.jpg',
       contatos: [
         {
           id: 1,
           tipo: 'telefone',
-          contato: '19 6666-6666'
+          contato: '77 77777-7777'
         },
         {
           id: 2,
           tipo: 'email',
-          contato: 'ermusk@xpace.com'
+          contato: 'einstein@albert.com'
         }
       ],
       educacao: [
         {
           id: 1,
-          instituicao: 'Universidade da Pensilvânia',
+          instituicao: 'Politecnica de Zurique',
           curso: 'Física'
         },
         {
           id: 2,
-          instituicao: 'Wharton Schoolof Business',
-          curso: 'Economia'
+          instituicao: 'Universidade de Zurique',
+          curso: 'Doutorado'
         }
       ],
       experiencia: [
         {
           id: 1,
-          cargo: 'CEO, CTO, ENG de produto',
-          periodo: 'Agosto 2019 - Atualmente',
-          empresa: 'SpaceX',
-          local: 'Hawthrone, Califórnia, EUA',
-          conteudo: 'Fundador da Space Exploration Rechnologies. Atuante na missão que lançou o primeiro veículo para a Estação Espacial Internacional'
+          cargo: 'Professor',
+          periodo: '1908 - 1925',
+          empresa: 'Universidade de Berna',
+          local: 'Berna, Suiça',
+          conteudo: 'Eletrodinamica,relatividade geral relatividade restrita movimento browniano efeito fotoelétrico'
         },
         {
           id: 2,
-          cargo: 'CEO',
-          periodo: 'Agosto 2018 - Agosto 2019',
-          empresa: 'Tesla Motors',
-          local: 'Palo Alto, Califórnia, EUA',
-          conteudo: 'Promotor de um produto inovador, que de fato inova mas nunca é entregue no prazo. Ainda bem que o Walison não comprou um carro desse ainda, talvez ele espere mais um pouco pra adiquirir um...'
+          cargo: 'Diretor',
+          periodo: '1914 - 1925',
+          empresa: 'Instituto Kaiser Guilherme de Fisica',
+          local: 'Alemanha',
+          conteudo: 'Equivalência massa-energia, equações de campo de Einstein, estatística de Bose-Einstein, paradoxo EPR'
         }
       ]
   }

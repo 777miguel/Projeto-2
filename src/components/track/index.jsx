@@ -9,7 +9,7 @@ function Track() {
 
             <div className="perfil-profissional">
                 <p>
-                Empreendedor norte-americano de origem sul-africana. Cofundador e CEO da companhia Tesla Motors, pioneira na fabricação de carros elétricos. Fundador e CEO da SpaceX, a primeira empresa a vender um voo comercial para a Lua.
+                Em 1922, foi premiado com o Nobel de Física de 1921, "por seus serviços à física teórica e, pela sua descoberta da lei do efeito fotoelétrico". Isso se refere ao seu artigo de 1905 "Sobre um ponto de vista heurístico relativo à produção e transformação da luz", que foi bem sustentado pela evidência experimental até então. O discurso de apresentação começou a mencionar "sua teoria da relatividade [que havia] sido objeto de intenso debate nos círculos filosóficos [e] também tem implicações astrofísicas que estavam a ser rigorosamente examinadas no presente momento.
                 </p>
             </div>
         </>
